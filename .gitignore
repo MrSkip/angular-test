@@ -22,3 +22,5 @@ mvnw.cmd
 target/
 
 src/main/client/node_modules/
+src/main/resources/static/
+src/main/resources/templates/
