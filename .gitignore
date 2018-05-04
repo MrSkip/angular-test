@@ -19,8 +19,4 @@ mvnw
 mvnw.cmd
 .idea/
 .mvn/
-target/
-
-src/main/client/node_modules/
-src/main/resources/static/
-src/main/resources/templates/
+/src/main/webapp/node_modules/

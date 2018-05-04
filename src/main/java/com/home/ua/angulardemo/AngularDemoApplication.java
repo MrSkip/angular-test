@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 public class AngularDemoApplication {
 
 	public static void main(String[] args) {
-//		SpringApplication.run(AngularDemoApplication.class, args);
+		SpringApplication.run(AngularDemoApplication.class, args);
 //		String test = "test".intern();
 //		String test1 = "test";
 
@@ -23,7 +23,7 @@ public class AngularDemoApplication {
 //
 //		}
 //		System.out.println(test == test1);
-		new B();
+//		new B();
 	}
 
 
