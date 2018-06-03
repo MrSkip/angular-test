@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GroupArrayComponent } from './group-array.component';
+import { UserNotificationComponent } from './user-notification.component';
 
-describe('GroupArrayComponent', () => {
-  let component: GroupArrayComponent;
-  let fixture: ComponentFixture<GroupArrayComponent>;
+describe('UserNotificationComponent', () => {
+  let component: UserNotificationComponent;
+  let fixture: ComponentFixture<UserNotificationComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GroupArrayComponent ]
+      declarations: [ UserNotificationComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GroupArrayComponent);
+    fixture = TestBed.createComponent(UserNotificationComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
