@@ -1,3 +1,13 @@
-<p>
-  poster-preview works!
-</p>
+<slideshow #slideshow
+           [height]="'725px'"
+           [minHeight]="'525px'"
+           [autoPlay]="true"
+           [showArrows]="true"
+           [imageUrls]="imageSources"
+           [lazyLoad]="imageSources?.length > 1"
+           [autoPlayInterval]="5000"
+           [dotColor]="'#21632a'"
+           [captionBackground]="'rgba(0, 0, 0, .35)'"
+           [showDots]="true"
+           [autoPlayWaitForLazyLoad]="true">
+</slideshow>

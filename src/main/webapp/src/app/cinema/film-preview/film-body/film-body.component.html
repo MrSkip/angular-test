@@ -1,0 +1,49 @@
+<div class="default-container">
+    <div fxLayout="row" fxLayoutAlign="stretch" fxLayoutGap="10px">
+        <div fxFlex="column">
+            <div>
+                <div>
+                    <p>Виявляється у Денні Оушена є така сама як і він заповзятлива сестриця. Щойно вийшовши з в’язниці, Деббі Оушен (Сандра Буллок) збирає команду для викрадення найдорожчого у світі кольє прямісінько з шиї підступної Дафни Крюгер (Енн Гетевей). Це має статись під час щорічного балу Музею мистецтва Метрополітан. Як і брат, вона буде збирати команду з людей, на яких можна покластися. За справу візьмуться Лу (Кейт Бланшетт), Роуз (Хелена Бонем Картер), Ніне (Ріанна) та інші, не менш колоритні подружки Деббі.
+
+                    </p>
+                    <p>Кримінальний трилер <strong>«8 подруг Оушена»</strong> – це жіночий спін-офф популярної трилогії про Денні Оушена і пограбування, які він здійснював разом зі своїми друзями. Про те, що прямого продовження історії не буде, Стівен Содерберг заявив ще в 2006 році. Ідея зняти фільм про сестру Денні з'явилася в 2015 році. Режисуру довірили Гері Россу, чотириразовому номінанту на премію Оскар. Сценарій писали спільно Гері Росс і Олівія Мілч, для якої цей проект – друга її робота в кіно в якості сценариста. Зйомки проходили в Нью-Йорку з жовтня 2016 по березень 2017 року.
+                    </p>
+                </div>
+            </div>
+            <app-film-posters [film$]="filmService.film$" fxFlex="70%"></app-film-posters>
+        </div>
+        <div fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="15px" fxFlex="30%">
+            <div>
+                <h1 align="center">{{film.name}}</h1>
+            </div>
+            <div>
+                <h3 align="center">Year</h3>
+                <div align="center">{{film.year}}</div>
+            </div>
+            <div>
+                <h3 align="center">Country</h3>
+                <div align="center">{{film.country}}</div>
+            </div>
+            <div>
+                <h3 align="center">Genre</h3>
+                <div align="center">{{film.genres}}</div>
+            </div>
+            <div>
+                <h3 align="center">Producer</h3>
+                <div align="center">{{film.producer}}</div>
+            </div>
+            <div>
+                <h3 align="center">Actors</h3>
+                <div align="center">{{film.actors}}</div>
+            </div>
+            <div>
+                <h3 align="center">Language</h3>
+                <div align="center">{{film.language}}</div>
+            </div>
+            <div>
+                <h3 align="center">Duration</h3>
+                <div align="center">{{film.duration}} minutes</div>
+            </div>
+        </div>
+    </div>
+</div>
